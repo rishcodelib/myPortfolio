@@ -11,45 +11,45 @@ function divider() {
    
   // });
 
-  return <section class="techDivider">
+  return <section className="techDivider">
 
-    <div class="container-fluid bg-light py-3">
-      <div class="row">
-        <div class="col-md-1 col-4  d-flex justify-content-center    ">
-          <i class="fab fa-java fa-3x"></i>
+    <div className="container-fluid bg-light py-3">
+      <div className="row">
+        <div className="col-md-1 col-4  d-flex justify-content-center    ">
+          <i className="fab fa-java fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-angular fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-angular fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-envira fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-envira fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-js fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-js fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-docker fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-docker fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fa fa-database fa-3x"></i>\
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fa fa-database fa-3x"></i>\
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-node fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-node fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-npm fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-npm fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-jenkins fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-jenkins fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-sass fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-sass fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fa-css3-alt fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fa-css3-alt fa-3x"></i>
         </div>
-        <div class="col-md-1 col-4 d-flex justify-content-center  ">
-          <i class="fab fab fa-aws fa-3x"></i>
+        <div className="col-md-1 col-4 d-flex justify-content-center  ">
+          <i className="fab fab fa-aws fa-3x"></i>
         </div>
 
       </div>
