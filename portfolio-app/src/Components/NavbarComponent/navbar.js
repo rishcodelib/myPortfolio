@@ -15,10 +15,10 @@ function Navbar() {
   }, []);
   let classStr = "navbar-light bg-light";
 
-  if (offset > 200 && (fullUrl == '/' || fullUrl == '/home')) {
+  if (offset > 200 && (fullUrl === '/' || fullUrl === '/home')) {
     classStr = "navbar-light bg-light ";
 
-  } else if (offset < 200 && (fullUrl == '/' || fullUrl == '/home')) {
+  } else if (offset < 200 && (fullUrl === '/' || fullUrl === '/home')) {
     classStr = "navbar-dark bg-transparent ";
   }
 
@@ -38,26 +38,13 @@ function Navbar() {
             <Link to="/projects" className="nav-link" >
               Projects</Link>
           </li>
-          {/* <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="/home" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a className="dropdown-item" href="/home">Action</a></li>
-              <li><a className="dropdown-item" href="/home">Another action</a></li>
-              <li><hr className="dropdown-divider"></hr></li>
-              <li><a className="dropdown-item" href="/home">Something else here</a></li>
-            </ul>
-          </li> */}
+
           <li className="nav-item">
-            <Link to="/contact" className="nav-link " tabindex="-1" aria-disabled="false">Contact</Link>
+            <Link to="/contact" className="nav-link " tabIndex="-1" aria-disabled="false">Contact</Link>
           </li>
 
         </ul>
-        {/* <!-- <form className="d-flex">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form> --> */}
+
       </div>
     </div>
   </nav >;

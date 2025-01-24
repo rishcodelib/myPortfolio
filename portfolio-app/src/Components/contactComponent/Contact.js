@@ -51,21 +51,21 @@ function Contact() {
           <form >
             <div className="row">
               <div className="col-md-6">
-                <label for="first-name">First Name: </label> <br />
-                <input id="first-name" type="text" className="form-control" formControlName="firstName" />
+                <label htmlFor="first-name">First Name: </label> <br />
+                <input id="first-name" type="text" className="form-control" formcontrolname="firstName" />
               </div>
               <div className="col-md-6">
-                <label for="last-name">Last Name: </label> <br />
-                <input id="last-name" type="text" className="form-control" formControlName="lastName" />
+                <label htmlFor="last-name">Last Name: </label> <br />
+                <input id="last-name" type="text" className="form-control" formcontrolname="lastName" />
               </div>
               <div className="col-md-6">
-                <label for="email">Email: </label> <br />
-                <input id="email" type="email" className="form-control" formControlName="email" />
+                <label htmlFor="email">Email: </label> <br />
+                <input id="email" type="email" className="form-control" formcontrolname="email" />
               </div>
 
               <div className="col-md-6">
-                <label for="contact">Contact: </label> <br />
-                <input id="contact" type="number" className=" form-control" formControlName="contact" />
+                <label htmlFor="contact">Contact: </label> <br />
+                <input id="contact" type="number" className=" form-control" formcontrolname="contact" />
               </div>
               <div className="col-md-12 mt-2 text-center">
                 {/* <!-- <p>Complete the form to enable button.</p> --> */}

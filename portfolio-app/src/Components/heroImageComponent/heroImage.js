@@ -18,7 +18,7 @@ function heroImage() {
             </h1>
             <div className="auto-typer">
               <span className="typer typer-style" id="main" data-words="Web Developer,Web Designer" data-delay="100"
-                data-deleteDelay="1000"></span>
+                data-deletedelay="1000"></span>
               <span className="cursor" data-owner="main"></span>
             </div>
           </div>
