@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Caveat';
+  src: url('../../Assets/fonts/Caveat/Caveat-VariableFont_wght.ttf') format('ttf'),
+
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+}
+
+
+.heroImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Assets/images/background.jpeg');
+  height: 30rem;
+  background-size: cover;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+.caveat {
+  font-family: "Caveat", sans-serif !important;
+  /* font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal; */
+}
+
+.headText h1.name {
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0px;
+  color: #ecedee, black;
+  letter-spacing: 4px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(121deg, #ffffff, #feffd9cc, #baff00);
+}
+
+
+
+.headText {
+  text-align: center;
+  color: white;
+
+}
+
+.greetings {
+  font-weight: 300;
+  font-size: 33px;
+  color: #ecedee;
+}
+
+.masterContent .user_image {
+  position: relative;
+  margin: 0 auto;
+}
+
+.masterContent .user_image {
+  border-radius: 50%;
+  height: 100px;
+  /* // top: 100px */
+  width: 100px;
+  /* // position: relative; */
+  background-size: contain;
+  background-position: center;
+  /* background-image: url("https://www.rishabh-aggarwal.com/assets/img/user.png"); */
+  fill: 50%;
+}
+
+
+.auto-typer {
+  border-top: 2px solid #47a3da;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 15%;
+}
