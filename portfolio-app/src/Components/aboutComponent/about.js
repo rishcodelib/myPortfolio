@@ -1,7 +1,9 @@
 import React from "react";
 import "./about.css";
+import UserEntity from "../../Entity/userEntity";
 
 function about() {
+  const user = UserEntity.getUser(1);
   return <section className="about-me " id="about">
     <div className="container">
       {/* <!-- <hr className="sc-content"> --> */}
@@ -27,9 +29,11 @@ function about() {
             </div>
           </div>
           <div className="sub-Content">
+
+
             <p className="mb-0"> I am a Full Stack Developer presently working in <a className="company"
               href="https://www.lumen.com">Lumen
-              Technologies</a> as Software Developent Engineer-I.I am passionate for programing & new emerging
+              Technologies</a> as Software Developent Engineer-I. I am passionate for programing & new emerging
               technologies. </p>
             <p> With 5+ Years of experience in IT-Industry. I have developed numerous Web-Application & Websites for the
               different clients. I am presently located in Bengaluru, Karnataka. </p>

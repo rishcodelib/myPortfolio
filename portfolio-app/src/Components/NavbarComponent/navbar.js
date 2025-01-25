@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import '../../Assets/fonts/Caveat/caveat.css'; // Import the custom font CSS
+
+import UserEntity from '../../Entity/userEntity';
 function Navbar() {
+
+  const root = UserEntity.getUser(1);
 
   const [offset, setOffset] = useState(0);
   let fullUrl = window.location.pathname;
-
   useEffect(() => {
     const onScroll = () => setOffset(window.scrollY);
     // clean up code
@@ -20,11 +23,13 @@ function Navbar() {
 
   } else if (offset < 200 && (fullUrl === '/' || fullUrl === '/home')) {
     classStr = "navbar-dark bg-transparent ";
+  }else  {
+    classStr = "navbar-light bg-light ";
   }
 
   return <nav className={'navbar navbar-expand-lg fixed-top ' + classStr} >
     <div className="container">
-      <Link className="navbar-brand island " to="https://www.rishabhaggarwal.in"><h1 className="display-6">iAmRishabh</h1></Link>
+      <Link className="navbar-brand island " to={root.website}><h1 className="display-6">{root.alias}</h1></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

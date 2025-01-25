@@ -1,26 +1,31 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 import Main from './Layouts/Main/Main.js';
 import HomePage from './Pages/homePage.js';
-import Contact from './Components/contactComponent/Contact.js';
+import ContactPage from './Pages/contactPage.js';
 import ProjectPage from './Pages/projectPage.js'
+// import DummyPage from './Pages/DummyPage.js'
 
 function App() {
   return (
-    <BrowserRouter basename="/">
-      <Routes>
-        <Route path="/" element={<Main />}>
-          <Route index element={<HomePage />} />
-          <Route path="projects" element={<ProjectPage />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter basename="/">
+        <Routes>
+          <Route path="/" element={<Main />}>
+            <Route index element={<HomePage />} />
+            <Route path="projects" element={<ProjectPage />} />
+            <Route path="contact" element={<ContactPage />} />
+            {/* <Route path="dummy" element={<DummyPage />} /> */}
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 }
 

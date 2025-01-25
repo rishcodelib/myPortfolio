@@ -8,6 +8,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+html {
+  overflow-x: hidden;
 }
 .navbar-brand {
   font-size: xxx-large;
@@ -51,4 +55,8 @@ code {
 
 .h-5rem {
   height: 5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }

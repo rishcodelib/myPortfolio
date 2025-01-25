@@ -1,9 +1,9 @@
 .card {
-  min-height: 315px;
-  max-height: 350px;
+  min-height: 275px;
+  max-height: 300px;
   overflow: hidden;
   margin-bottom: 10px;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
 }
 
 .card-img-top {
@@ -19,7 +19,7 @@
   text-align: center;
   width: 50%;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   min-height: 100px;
 }
 
@@ -48,6 +48,7 @@ hr.divider {
 }
 
 .bg-proj-carousel {
-  background-color: #f8f9f;
-  border-radius: 7%;
+  background-color: #84c5f52b;
+  border-radius: 1%;
+  
 }
