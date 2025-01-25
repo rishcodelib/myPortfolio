@@ -1,8 +1,16 @@
-.content {
-  color: rgba(0, 0, 0, .5);
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.myfooter a {
+.footer a {
+  color: #fff;
+  margin: 0 10px;
   text-decoration: none;
-  color: grey;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
