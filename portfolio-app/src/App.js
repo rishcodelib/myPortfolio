@@ -12,7 +12,7 @@ import ProjectPage from './Pages/projectPage.js'
 
 function App() {
   return (
-    <BrowserRouter basename="/myportfolio/portfolio-app">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Main />}>
           <Route index element={<HomePage />} />
