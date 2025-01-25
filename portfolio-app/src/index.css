@@ -1,13 +1,5 @@
-@font-face {
-  font-family: 'Caveat';
-  src: url('./Assets/fonts/Caveat/Caveat-VariableFont_wght.ttf') format('ttf'),
-    url('./Assets/fonts/Caveat/static/Caveat-Regular.ttf') format('ttf'),
-    url('./Assets/fonts/Caveat/static/Caveat-Bold.ttf') format('ttf'),
-    url('./Assets/fonts/Caveat/static/Caveat-SemiBold.ttf') format('ttf'),
-    url('./Assets/fonts/Caveat/static/Caveat-Medium.ttf') format('ttf')
-    /* Add additional font formats if necessary */
-    /* Specify the correct path to the font files */
-}
+@import url('./Assets/fonts/Caveat/caveat.css');
+@import url('./Assets/fonts/angular/Island.css');
 
 body {
   margin: 0;
@@ -17,7 +9,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.navbar-brand {
+  font-size: xxx-large;
+}
+.island{
+  font-family: "IslandMoments","Caveat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
 .caveat {
   font-family: "Caveat", sans-serif;
   font-optical-sizing: auto;

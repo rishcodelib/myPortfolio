@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
-
+import '../../Assets/fonts/Caveat/caveat.css'; // Import the custom font CSS
 function Navbar() {
 
   const [offset, setOffset] = useState(0);
@@ -23,8 +23,8 @@ function Navbar() {
   }
 
   return <nav className={'navbar navbar-expand-lg fixed-top ' + classStr} >
-    <div className="container-fluid">
-      <Link className="navbar-brand" to="https://www.rishabhaggarwal.in">iAmRishabh</Link>
+    <div className="container">
+      <Link className="navbar-brand island " to="https://www.rishabhaggarwal.in"><h1 className="display-6">iAmRishabh</h1></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

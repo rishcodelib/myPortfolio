@@ -1,0 +1,11 @@
+/* filepath: /Users/rishabh/WorkSpaces/GitRepository/myPortfolio/portfolio-app/src/assets/fonts/fonts.css */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./static/Caveat-Bold.ttf') format('truetype'),
+       url('./static/Caveat-Medium.ttf') format('truetype'),
+       url('./static/Caveat-Regular.ttf') format('truetype'),
+       url('./static/Caveat-SemiBold.ttf') format('truetype'),
+       url('./Caveat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
