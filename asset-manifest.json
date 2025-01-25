@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.486af90c.css",
-    "main.js": "./static/js/main.c4e15d8a.js",
+    "main.css": "./static/css/main.05289946.css",
+    "main.js": "./static/js/main.9270fe59.js",
     "static/js/453.f4fbaa6d.chunk.js": "./static/js/453.f4fbaa6d.chunk.js",
+    "static/media/IslandMoments-Regular.ttf": "./static/media/IslandMoments-Regular.5e2b62d2aef2a23f3850.ttf",
     "static/media/background.jpeg": "./static/media/background.bda2297974335a52f1de.jpeg",
     "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/Caveat-VariableFont_wght.ttf": "./static/media/Caveat-VariableFont_wght.31f0a02d84d42627c894.ttf",
@@ -18,12 +19,12 @@
     "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "./index.html",
-    "main.486af90c.css.map": "./static/css/main.486af90c.css.map",
-    "main.c4e15d8a.js.map": "./static/js/main.c4e15d8a.js.map",
+    "main.05289946.css.map": "./static/css/main.05289946.css.map",
+    "main.9270fe59.js.map": "./static/js/main.9270fe59.js.map",
     "453.f4fbaa6d.chunk.js.map": "./static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.486af90c.css",
-    "static/js/main.c4e15d8a.js"
+    "static/css/main.05289946.css",
+    "static/js/main.9270fe59.js"
   ]
 }
