@@ -5,14 +5,14 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 
 
-    import Main from './Layouts/Main/Main.js';
-    import HomePage from './Pages/homePage.js';
-    import Contact from './Components/contactComponent/Contact.js';
-    import ProjectPage from './Pages/projectPage.js'
+import Main from './Layouts/Main/Main.js';
+import HomePage from './Pages/homePage.js';
+import Contact from './Components/contactComponent/Contact.js';
+import ProjectPage from './Pages/projectPage.js'
 
-    function App() {
+function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/myportfolio/portfolio-app">
       <Routes>
         <Route path="/" element={<Main />}>
           <Route index element={<HomePage />} />
@@ -21,7 +21,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
         </Route>
       </Routes>
     </BrowserRouter>
-    );
+  );
 }
 
-    export default App;
+export default App;
