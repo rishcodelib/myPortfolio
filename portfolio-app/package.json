@@ -2,16 +2,21 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rishcodelib.github.io/",
+  "homepage": "https://rishcodelib.github.io/portfolio-app",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.0.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -38,9 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.3.0",
-    "react-router-dom": "^6.23.1"
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import 'https://kit.fontawesome.com/059627b691.js'
+import '@fortawesome/fontawesome-free/css/all.min.css'; 
 
 
 function divider() {

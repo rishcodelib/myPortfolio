@@ -29,7 +29,7 @@
   transition: ease-in .8s;
 }
 
-.sc-media a.icon:hover .fa {
+.sc-media a.icon:hover i {
   color: green;
   transition: ease-in .8s;
 }
