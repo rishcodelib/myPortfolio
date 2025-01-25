@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.2476f21b.css",
-    "main.js": "./static/js/main.b88e6d18.js",
+    "main.js": "./static/js/main.c1cc86e7.js",
     "static/js/453.f4fbaa6d.chunk.js": "./static/js/453.f4fbaa6d.chunk.js",
     "static/media/IslandMoments-Regular.ttf": "./static/media/IslandMoments-Regular.5e2b62d2aef2a23f3850.ttf",
     "static/media/background.jpeg": "./static/media/background.bda2297974335a52f1de.jpeg",
@@ -20,11 +20,11 @@
     "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "./index.html",
     "main.2476f21b.css.map": "./static/css/main.2476f21b.css.map",
-    "main.b88e6d18.js.map": "./static/js/main.b88e6d18.js.map",
+    "main.c1cc86e7.js.map": "./static/js/main.c1cc86e7.js.map",
     "453.f4fbaa6d.chunk.js.map": "./static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2476f21b.css",
-    "static/js/main.b88e6d18.js"
+    "static/js/main.c1cc86e7.js"
   ]
 }
