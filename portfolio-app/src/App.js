@@ -22,7 +22,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="projects" element={<ProjectPage />} />
             <Route path="contact" element={<ContactPage />} />
-            <Route path="rishhiiimusic" element={<MusicPage />} />
+            <Route path="music" element={<MusicPage />} />
             {/* <Route path="dummy" element={<DummyPage />} /> */}
           </Route>
         </Routes>
