@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/www.rishabhaggarwal.in/static/css/main.15661b74.css",
-    "main.js": "/www.rishabhaggarwal.in/static/js/main.96ac8c64.js",
-    "static/js/453.f4fbaa6d.chunk.js": "/www.rishabhaggarwal.in/static/js/453.f4fbaa6d.chunk.js",
-    "static/media/background.jpeg": "/www.rishabhaggarwal.in/static/media/background.bda2297974335a52f1de.jpeg",
-    "static/media/fa-solid-900.ttf": "/www.rishabhaggarwal.in/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
-    "static/media/Caveat-VariableFont_wght.ttf": "/www.rishabhaggarwal.in/static/media/Caveat-VariableFont_wght.31f0a02d84d42627c894.ttf",
-    "static/media/Caveat-SemiBold.ttf": "/www.rishabhaggarwal.in/static/media/Caveat-SemiBold.d22864b4c88c0e98cda2.ttf",
-    "static/media/Caveat-Medium.ttf": "/www.rishabhaggarwal.in/static/media/Caveat-Medium.a661a40777402bb8c6ff.ttf",
-    "static/media/Caveat-Bold.ttf": "/www.rishabhaggarwal.in/static/media/Caveat-Bold.b4c2105c3a62bce010d1.ttf",
-    "static/media/Caveat-Regular.ttf": "/www.rishabhaggarwal.in/static/media/Caveat-Regular.419940188ab4de524042.ttf",
-    "static/media/fa-brands-400.ttf": "/www.rishabhaggarwal.in/static/media/fa-brands-400.1815e00441357e01619e.ttf",
-    "static/media/fa-solid-900.woff2": "/www.rishabhaggarwal.in/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
-    "static/media/fa-brands-400.woff2": "/www.rishabhaggarwal.in/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/fa-regular-400.ttf": "/www.rishabhaggarwal.in/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
-    "static/media/fa-regular-400.woff2": "/www.rishabhaggarwal.in/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
-    "static/media/fa-v4compatibility.ttf": "/www.rishabhaggarwal.in/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
-    "static/media/fa-v4compatibility.woff2": "/www.rishabhaggarwal.in/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "index.html": "/www.rishabhaggarwal.in/index.html",
-    "main.15661b74.css.map": "/www.rishabhaggarwal.in/static/css/main.15661b74.css.map",
-    "main.96ac8c64.js.map": "/www.rishabhaggarwal.in/static/js/main.96ac8c64.js.map",
-    "453.f4fbaa6d.chunk.js.map": "/www.rishabhaggarwal.in/static/js/453.f4fbaa6d.chunk.js.map"
+    "main.css": "./static/css/main.486af90c.css",
+    "main.js": "./static/js/main.631594e0.js",
+    "static/js/453.f4fbaa6d.chunk.js": "./static/js/453.f4fbaa6d.chunk.js",
+    "static/media/background.jpeg": "./static/media/background.bda2297974335a52f1de.jpeg",
+    "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/Caveat-VariableFont_wght.ttf": "./static/media/Caveat-VariableFont_wght.31f0a02d84d42627c894.ttf",
+    "static/media/Caveat-SemiBold.ttf": "./static/media/Caveat-SemiBold.d22864b4c88c0e98cda2.ttf",
+    "static/media/Caveat-Medium.ttf": "./static/media/Caveat-Medium.a661a40777402bb8c6ff.ttf",
+    "static/media/Caveat-Bold.ttf": "./static/media/Caveat-Bold.b4c2105c3a62bce010d1.ttf",
+    "static/media/Caveat-Regular.ttf": "./static/media/Caveat-Regular.419940188ab4de524042.ttf",
+    "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "./static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "./static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "./static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "./index.html",
+    "main.486af90c.css.map": "./static/css/main.486af90c.css.map",
+    "main.631594e0.js.map": "./static/js/main.631594e0.js.map",
+    "453.f4fbaa6d.chunk.js.map": "./static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15661b74.css",
-    "static/js/main.96ac8c64.js"
+    "static/css/main.486af90c.css",
+    "static/js/main.631594e0.js"
   ]
 }
