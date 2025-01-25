@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/myportfolio/portfolio-app/static/css/main.ebd8e95c.css",
-    "main.js": "/myportfolio/portfolio-app/static/js/main.f518ef50.js",
-    "static/js/453.f4fbaa6d.chunk.js": "/myportfolio/portfolio-app/static/js/453.f4fbaa6d.chunk.js",
-    "static/media/background.jpeg": "/myportfolio/portfolio-app/static/media/background.bda2297974335a52f1de.jpeg",
-    "static/media/fa-solid-900.ttf": "/myportfolio/portfolio-app/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
-    "static/media/Caveat-VariableFont_wght.ttf": "/myportfolio/portfolio-app/static/media/Caveat-VariableFont_wght.31f0a02d84d42627c894.ttf",
-    "static/media/Caveat-SemiBold.ttf": "/myportfolio/portfolio-app/static/media/Caveat-SemiBold.d22864b4c88c0e98cda2.ttf",
-    "static/media/Caveat-Medium.ttf": "/myportfolio/portfolio-app/static/media/Caveat-Medium.a661a40777402bb8c6ff.ttf",
-    "static/media/Caveat-Bold.ttf": "/myportfolio/portfolio-app/static/media/Caveat-Bold.b4c2105c3a62bce010d1.ttf",
-    "static/media/Caveat-Regular.ttf": "/myportfolio/portfolio-app/static/media/Caveat-Regular.419940188ab4de524042.ttf",
-    "static/media/fa-brands-400.ttf": "/myportfolio/portfolio-app/static/media/fa-brands-400.1815e00441357e01619e.ttf",
-    "static/media/fa-solid-900.woff2": "/myportfolio/portfolio-app/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
-    "static/media/fa-brands-400.woff2": "/myportfolio/portfolio-app/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/fa-regular-400.ttf": "/myportfolio/portfolio-app/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
-    "static/media/fa-regular-400.woff2": "/myportfolio/portfolio-app/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
-    "static/media/fa-v4compatibility.ttf": "/myportfolio/portfolio-app/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
-    "static/media/fa-v4compatibility.woff2": "/myportfolio/portfolio-app/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
-    "index.html": "/myportfolio/portfolio-app/index.html",
-    "main.ebd8e95c.css.map": "/myportfolio/portfolio-app/static/css/main.ebd8e95c.css.map",
-    "main.f518ef50.js.map": "/myportfolio/portfolio-app/static/js/main.f518ef50.js.map",
-    "453.f4fbaa6d.chunk.js.map": "/myportfolio/portfolio-app/static/js/453.f4fbaa6d.chunk.js.map"
+    "main.css": "/static/css/main.6ec0ff3a.css",
+    "main.js": "/static/js/main.1a383e07.js",
+    "static/js/453.f4fbaa6d.chunk.js": "/static/js/453.f4fbaa6d.chunk.js",
+    "static/media/background.jpeg": "/static/media/background.bda2297974335a52f1de.jpeg",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/Caveat-VariableFont_wght.ttf": "/static/media/Caveat-VariableFont_wght.31f0a02d84d42627c894.ttf",
+    "static/media/Caveat-SemiBold.ttf": "/static/media/Caveat-SemiBold.d22864b4c88c0e98cda2.ttf",
+    "static/media/Caveat-Medium.ttf": "/static/media/Caveat-Medium.a661a40777402bb8c6ff.ttf",
+    "static/media/Caveat-Bold.ttf": "/static/media/Caveat-Bold.b4c2105c3a62bce010d1.ttf",
+    "static/media/Caveat-Regular.ttf": "/static/media/Caveat-Regular.419940188ab4de524042.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/index.html",
+    "main.6ec0ff3a.css.map": "/static/css/main.6ec0ff3a.css.map",
+    "main.1a383e07.js.map": "/static/js/main.1a383e07.js.map",
+    "453.f4fbaa6d.chunk.js.map": "/static/js/453.f4fbaa6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebd8e95c.css",
-    "static/js/main.f518ef50.js"
+    "static/css/main.6ec0ff3a.css",
+    "static/js/main.1a383e07.js"
   ]
 }
