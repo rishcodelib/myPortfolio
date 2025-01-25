@@ -10,18 +10,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
+
 html {
   overflow-x: hidden;
 }
+
 .navbar-brand {
   font-size: xxx-large;
 }
-.island{
-  font-family: "IslandMoments","Caveat", sans-serif;
+
+.island {
+  font-family: "IslandMoments", "Caveat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
 }
+
 .caveat {
   font-family: "Caveat", sans-serif;
   font-optical-sizing: auto;
@@ -59,4 +63,8 @@ code {
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+.codewithRishhiii{
+  font-weight: 100;
 }

@@ -1,0 +1,23 @@
+.btn-tag {
+  padding: 0;
+  font-size: small;
+  background-color: #ffffff;
+
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-tag {
+  flex: 1 1 auto;
+  margin: 5px;
+  text-align: center;
+}
+
+p.project-tag.btn.btn-tag {
+  font-weight: 200;
+  font-size: 10px;
+}

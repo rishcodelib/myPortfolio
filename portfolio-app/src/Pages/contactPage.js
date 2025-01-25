@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet-async';
-import Contact from '../Components/contactComponent/Contact';
+
+import Contact from '../Components/contactComponent/contact';
 
 export class ContactPage extends Component {
   render() {

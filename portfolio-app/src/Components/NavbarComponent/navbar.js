@@ -19,15 +19,15 @@ function Navbar() {
   let classStr = "navbar-light bg-light";
 
   if (offset > 200 && (fullUrl === '/' || fullUrl === '/home')) {
-    classStr = "navbar-light bg-light ";
+    classStr = "navbar-light bg-light fixed-top ";
 
   } else if (offset < 200 && (fullUrl === '/' || fullUrl === '/home')) {
-    classStr = "navbar-dark bg-transparent ";
-  }else  {
+    classStr = "navbar-dark bg-transparent fixed-top ";
+  } else {
     classStr = "navbar-light bg-light ";
   }
 
-  return <nav className={'navbar navbar-expand-lg fixed-top ' + classStr} >
+  return <nav className={'navbar navbar-expand-lg ' + classStr} >
     <div className="container">
       <Link className="navbar-brand island " to={root.website}><h1 className="display-6">{root.alias}</h1></Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

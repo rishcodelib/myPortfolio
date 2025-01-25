@@ -1,12 +1,10 @@
 import React from "react";
 import "./about.css";
-import UserEntity from "../../Entity/userEntity";
 
 function about() {
-  const user = UserEntity.getUser(1);
+  let subHeading = "Software Developement Engineer";
   return <section className="about-me " id="about">
     <div className="container">
-      {/* <!-- <hr className="sc-content"> --> */}
       <div className="row">
         <div className="col-md-12">
           <div className="sc-head ">
@@ -17,27 +15,18 @@ function about() {
         </div>
       </div>
       <div className="row">
-        {/* <!-- <div className="col-md-4 ">
-					<div className="usr-img ">
-						<img src="./assets/images/no_image.png" className="img-thumbnail ">
-					</div>
-				</div> --> */}
         <div className="col-md-12">
           <div className="sc-Head">
             <div className="sub-Heading mb-1">
-              Software Developement Engineer
+              {subHeading}
             </div>
           </div>
+
           <div className="sub-Content">
-
-
-            <p className="mb-0"> I am a Full Stack Developer presently working in <a className="company"
-              href="https://www.lumen.com">Lumen
-              Technologies</a> as Software Developent Engineer-I. I am passionate for programing & new emerging
-              technologies. </p>
-            <p> With 5+ Years of experience in IT-Industry. I have developed numerous Web-Application & Websites for the
-              different clients. I am presently located in Bengaluru, Karnataka. </p>
+            <p className="mb-0"> I am a dedicated Full Stack Developer currently employed at <a className="company"
+              href="https://www.lumen.com">Lumen  </a> Technologies India Pvt. Ltd. as a Software Development Engineer-I. My passion lies in programming and exploring new and emerging technologies. With over 5 years of experience in the IT industry, I have successfully developed numerous web applications and websites for a diverse range of clients. My expertise spans across various technologies, enabling me to deliver high-quality solutions tailored to client needs. I am currently based in Bengaluru, Karnataka. </p>
           </div>
+
           <div className="row">
             <div className="col-md-8">
               <app-skill-bar></app-skill-bar>
@@ -52,7 +41,6 @@ function about() {
 
     </div>
 
-    <i className="fa fa-leetcode" aria-hidden="true"></i>
   </section>
 }
 

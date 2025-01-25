@@ -6,11 +6,12 @@ class ProjectEntity {
       "projectDetailLink": null,
       "status": "Completed",
       "alias": null,
-      "description": "A landing page for company, bussinesses . . . ",
+      "shortDesc": "Justified Code is a sleek and modern landing page designed for a tech company specializing in software development and IT consulting services. The landing page aims to provide a comprehensive overview of the company's . . .",
+      "description": "Justified Code is a sleek and modern landing page designed for a tech company specializing in software development and IT consulting services. The landing page aims to provide a comprehensive overview of the company's offerings, showcase their expertise, and drive user engagement through a clean and intuitive design.",
       "liveUrl": "https://justified-code-f9ec1.firebaseapp.com/",
       "gitUrl": null,
       "demoUrl": null,
-      "imgSrc": "/images/no_image.png",
+      "imgSrc": "images/justifiedCode.png",
       "tag": ["HTML", "CSS", "Bootstrap", "Javascript"]
     },
 
@@ -21,7 +22,7 @@ class ProjectEntity {
       "projectDetailLink": null,
       "status": "Completed",
       "alias": null,
-      "description": "A Multi Utility Online Grocercy Store.",
+      "description": "The Rashan Store is a comprehensive online grocery store designed to provide a seamless shopping experience for customers. This project was developed for a company specializing in delivering fresh groceries and household essentials directly to customers' doorsteps. The platform aims to simplify the grocery shopping process with an intuitive interface, a wide range of products, and convenient delivery options.",
       "liveUrl": "https://www.rishabh-aggarwal.com/wp_projects/rash›",
       "gitUrl": null,
       "demoUrl": null,
@@ -36,7 +37,7 @@ class ProjectEntity {
       "projectDetailLink": null,
       "status": "Completed",
       "alias": null,
-      "description": "A Complete Web Shopping Application.",
+      "description": "My Market is an all-in-one online marketplace designed to offer a wide range of clothing and makeup products. This project was developed for a company specializing in fashion and beauty, aiming to provide customers with a seamless shopping experience. The platform features an extensive collection of trendy clothes and high-quality makeup products, catering to diverse customer preferences and styles.",
       "liveUrl": "https://www.rishabh-aggarwal.com/wp_projects/mymarket/",
       "gitUrl": null,
       "imgSrc": "images/MyMarket.png",
@@ -62,7 +63,7 @@ class ProjectEntity {
     /* 5 createdAt:5/15/2024, 11:35:01 AM*/
     {
       "key": 5,
-      "projectName": "Shree-Trends",
+      "projectName": "Shree-Trends WMS",
       "projectDetailLink": null,
       "status": "Completed",
       "alias": "WareHouse Management System",
@@ -100,10 +101,10 @@ class ProjectEntity {
       "key": 7,
       "projectName": "Personal Portfolio",
       "description": "Personal portfolio website created to showcase projects and details about myself. ",
-      "liveUrl": "https://rishabh-aggarwal.com",
+      "liveUrl": "https://rishabhaggarwal.in",
       "gitUrl": "https://github.com/rishcodelib",
       "demoUrl": "https://rishabhaggarwal-bae83.web.app/home",
-      "imgSrc": "images/Portfolio.png",
+      "imgSrc": "/images/Portfolio.jpg",
       "tag": ["NodeJS", "ExpressJS", "Angular"]
     },
 
@@ -116,7 +117,7 @@ class ProjectEntity {
       "description": "A Complete E-Commerce solution for customers, vendors & distrubuters.",
       "liveUrl": "https://ecommerceapp-14994.web.app/",
       "gitUrl": "https://github.com/rishcodelib/Ecommerce-App-JAVA",
-      "imgSrc": "../Assets/images/no_image.png",
+      "imgSrc": "/images/no_image.png",
       "tag": ["JAVA", "Spring Boot", "Angular"]
     }
     ]

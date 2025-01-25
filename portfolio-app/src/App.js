@@ -10,6 +10,7 @@ import Main from './Layouts/Main/Main.js';
 import HomePage from './Pages/homePage.js';
 import ContactPage from './Pages/contactPage.js';
 import ProjectPage from './Pages/projectPage.js'
+import MusicPage from './Pages/musicPage.js';
 // import DummyPage from './Pages/DummyPage.js'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="projects" element={<ProjectPage />} />
             <Route path="contact" element={<ContactPage />} />
+            <Route path="rishhiiimusic" element={<MusicPage />} />
             {/* <Route path="dummy" element={<DummyPage />} /> */}
           </Route>
         </Routes>
