@@ -1,31 +1,36 @@
-import React, { Component } from 'react'
-import ProjectItem from '../Components/projectCardComponent/projectItem'
+import React from 'react';
+import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import ProjectEntity from '../Entity/projectEntity';
-import About from '../Components/aboutComponent/about'
-import Divider from '../Components/divider/divider';
-import Contact from '../Components/contactComponent/contact';
-export class ProjectPage extends Component {
 
-  projects = ProjectEntity.getProjects();
-
-  constructor() {
-    super();
-    this.state = {
-      projects: this.projects,
-      loading: false
-    }
-
-  }
-  render() {
-
+const ProjectPage = () => {
+  const { projectId } = useParams();
+  let projectDetail = ProjectEntity.getProject(parseInt(projectId));
+  if (!projectDetail) {
     return (
-      <div >
+      <div>
         <Helmet>
-          <title>Projects | Rishabh Aggarwal</title>
+          <title>Project Not Found | Rishabh Aggarwal</title>
         </Helmet>
-        <section className="project-card">
+        <section className="project-card container">
           <div className="row">
+            <div className="col-md-12">
+              <h1 className="text-center">Project Not Found</h1>
+              <p className="text-center">The project with ID {projectId} does not exist.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <Helmet>
+        <title>{projectDetail.projectName} | Rishabh Aggarwal</title>
+      </Helmet>
+      <section className="project-card container">
+      <div className="row">
             <div className="col-md-12">
               <h1 className="text-center">Projects </h1>
               <h6 className="text-center codewithRishhiii">
@@ -35,23 +40,40 @@ export class ProjectPage extends Component {
             </div>
           </div>
           <hr className="hr-divider h-3rem "></hr>
-          <div className="project-card container">
-            <div className="row" >
-              {this.state.projects.map((elements) => {
-                return <div className="col-md-4 " key={elements.key}>
-                  <ProjectItem key={elements.key} projectName={elements.projectName} alias={elements.alias} description={elements.description} liveUrl={elements.liveUrl} gitUrl={elements.gitUrl} demoUrl={elements.demoUrl} imgSrc={elements.imgSrc} tag={elements.tag} status={elements.status} />
-                </div>
-              })}
-            </div>
+        <div className="row">
+          <div className="col-md-6">
+            {/* <img className="card-img-top" src={projectDetail.imgSrc} alt="projectImage" /> */}
+            <img src={projectDetail.imgSrc} className="img-fluid" alt={projectDetail.projectName} />
           </div>
-        </section>
-        <Divider />
-        <Contact />
-      </div>
-
-    )
-  }
-}
-
+          <div className="col-md-6">
+            <h1 >Project {projectDetail.projectName}</h1>
+            <h6 > {projectDetail.alias}</h6>
+            <p >Project Description: {projectDetail.description}</p>
+            <p >Project : </p>
+            <hr className="divider" />
+            <div className="row">
+              <div className="col-md-4 text-center">
+                {projectDetail.liveUrl && (
+                  <a href={projectDetail.liveUrl} className="btn btn-primary process-btn btn-live" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-link "></i> LIVE URL</a>
+                )}
+              </div>
+              <div className="col-md-4 text-center">
+                {projectDetail.demoUrl && (
+                  <a href={projectDetail.demoUrl} className="btn btn-secondary process-btn btn-demo" target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-laptop-code "></i> DEMO</a>
+                )}
+              </div>
+              <div className="col-md-4 text-center">
+                {projectDetail.gitUrl && (
+                  <a href={projectDetail.gitUrl} className="btn btn-dark process-btn btn-git" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github "></i> GITHUB</a>
+                )}
+              </div>
+            </div >
+            {/* Render the project details here */}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default ProjectPage

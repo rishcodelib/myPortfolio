@@ -26,6 +26,9 @@
   overflow: hidden;
   /* height: 2px; */
   font-size: 12px;
+  max-height: 95px;
+  min-height: 95px
+  
 }
 
 .card-body {
@@ -56,4 +59,9 @@ hr.divider {
 a.btn.btn-primary.process-btn.btn-live, .btn-git, .btn-demo {
   font-size: 12px;
   padding: 1px 14px;
+}
+
+.card-body:hover {
+  background-color: #54b4f85e;
+  transition: 20ms;
 }
