@@ -7,10 +7,9 @@ export class ProjectItem extends Component {
 
     let { id, projectName, alias, description, imgSrc, tag } = this.props;
 
-    console.log(id);
 
     return (
-      <a href={`projects/${id}`} target="_blank" rel="noopener noreferrer" className="card-link text-decoration-none">
+      <a href={`projects/${id}`} rel="noopener noreferrer" className="card-link text-decoration-none">
         <div className="card border-0 bg-proj-carousel">
           <img className="card-img-top" src={imgSrc} alt="projectImage" />
           <div className="card-body">
@@ -33,7 +32,7 @@ export class ProjectItem extends Component {
 
 }
 ProjectItem.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
   projectName: PropTypes.string.isRequired,
   alias: PropTypes.string,
   description: PropTypes.string,
