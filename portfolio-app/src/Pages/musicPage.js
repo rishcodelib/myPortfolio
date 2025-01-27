@@ -18,14 +18,14 @@ export class MusicPage extends Component {
         <Helmet>
           <title>Music | Rishabh Aggarwal</title>
         </Helmet>
-        <section className="project-card container-fluid">
+        <section className="project-card container">
           <div className="row">
             <div className="col-md-12">
               <h1 className="text-center">Music Projects</h1>
               <h6 className="text-center codewithRishhiii">
                 Partnered By <b><a href="https://www.youtube.com/@rishhiiimusic" target="_blank" rel="noopener noreferrer" className='text-decoration-none text-black '> RishhiiiMusic <i className="fa-brands fa-youtube fa-xl text-danger"></i></a></b>
               </h6>
-              <p className="text-center">These projects are purely for personal knowledge enhancement and proof of concept.</p>
+              {/* <p className="text-center">These projects are purely for personal knowledge enhancement and proof of concept.</p> */}
             </div>
           </div>
           <hr className="hr-divider h-3rem"></hr>
@@ -36,30 +36,33 @@ export class MusicPage extends Component {
                   <React.Fragment key={elements.key}>
                     {index % 2 === 0 ? (
                       <>
-                        <div className="col-md-4">
+                        <div className="col-md-6">
                           <MusicItem
                             projectName={elements.projectName}
                             alias={elements.alias}
+                            shortDesc={elements.shortDesc}
                             description={elements.description}
-                            // ytEmbeddedLink={elements.ytEmbeddedLink}
+                            ytEmbeddedLink={elements.ytEmbeddedLink}
                             liveUrl={elements.liveUrl}
                             tag={elements.tag}
                           />
                         </div>
-                        <div className="col-md-8">
-                        <div dangerouslySetInnerHTML={{ __html: elements.ytEmbeddedLink }} />
+                        <div className="col-md-6">
+                          <div dangerouslySetInnerHTML={{ __html: elements.ytEmbeddedLink }} />
                         </div>
                       </>
                     ) : (
                       <>
-                        <div className="col-md-8">
-                        <div dangerouslySetInnerHTML={{ __html: elements.ytEmbeddedLink }} />
+                        <div className="col-md-6">
+                          <div dangerouslySetInnerHTML={{ __html: elements.ytEmbeddedLink }} />
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-6">
                           <MusicItem
                             projectName={elements.projectName}
                             alias={elements.alias}
-                            // ytEmbeddedLink={elements.ytEmbeddedLink}
+                            shortDesc={elements.shortDesc}
+                            description={elements.description}
+                            ytEmbeddedLink={elements.ytEmbeddedLink}
                             liveUrl={elements.liveUrl}
                             tag={elements.tag}
                           />

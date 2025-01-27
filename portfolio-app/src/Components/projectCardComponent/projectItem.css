@@ -1,4 +1,4 @@
-.card {
+.project-card-body .card {
   min-height: 275px;
   /* max-height: 300px; */
   overflow: hidden;
@@ -6,15 +6,15 @@
   /* padding: 10px 10px; */
 }
 
-.card-img-top {
+.project-card-body .card-img-top {
   text-align: center;
 }
 
-.card-title {
+.project-card-body .card-title {
   font-size: 15px;
 }
 
-.card img {
+.project-card .card img {
   /* text-align: center; */
   width: 100%;
   margin: 0 auto;
@@ -22,7 +22,7 @@
   max-height: 175px;
 }
 
-.card-text {
+.project-card-body .card-text {
   overflow: hidden;
   /* height: 2px; */
   font-size: 12px;
@@ -31,7 +31,7 @@
   
 }
 
-.card-body {
+.project-card-body .card-body {
   min-height: 120px;
   /* max-height: 120px; */
   overflow: hidden;
@@ -41,7 +41,7 @@
 /* // .project-card{
 //   margin: 25px 0;} */
 
-hr.divider {
+.project-card-body hr.divider {
   width: 25%;
   margin: 2px auto;
 }
@@ -61,7 +61,7 @@ a.btn.btn-primary.process-btn.btn-live, .btn-git, .btn-demo {
   padding: 1px 14px;
 }
 
-.card-body:hover {
+.project-card-body .card-body:hover {
   background-color: #54b4f85e;
   transition: 20ms;
 }

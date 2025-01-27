@@ -47,6 +47,9 @@ function Navbar() {
           <li className="nav-item">
             <Link to="/contact" className="nav-link " tabIndex="-1" aria-disabled="false">Contact</Link>
           </li>
+          {/* <li className="nav-item">
+            <Link to="/RishhiiiMusic" className="nav-link " tabIndex="-1" aria-disabled="false">RishhiiiMusic <i className="fa-brands fa-youtube fa-xl text-danger"></i></Link>
+          </li> */} 
 
         </ul>
 

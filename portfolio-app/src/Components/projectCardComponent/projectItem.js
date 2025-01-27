@@ -10,7 +10,7 @@ export class ProjectItem extends Component {
 
     return (
       <Link to={`${id}`} rel="noopener noreferrer" className="card-link text-decoration-none">
-        <div className="card border-0 bg-proj-carousel">
+        <div className="project-card-body card border-0 bg-proj-carousel">
           <img className="card-img-top" src={imgSrc} alt="projectImage" />
           <div className="card-body">
             <h5 className="card-title">{projectName} <span className="text-secondary">

@@ -22,9 +22,11 @@ function App() {
           <Route path="/" element={<Main />}>
             <Route index element={<HomePage />} />
             <Route path="projects" element={<ProjectGridPage />} />
+            <Route path="CodeWithRishhiii" element={<ProjectGridPage />} />
             <Route path="projects/:projectId" element={<ProjectPage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="music" element={<MusicPage />} />
+            <Route path="RishhiiiMusic" element={<MusicPage />} />
             {/* <Route path="dummy" element={<DummyPage />} /> */}
           </Route>
         </Routes>
