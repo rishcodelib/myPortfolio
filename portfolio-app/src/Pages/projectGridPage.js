@@ -6,14 +6,13 @@ import Divider from '../Components/divider/divider';
 import Contact from '../Components/contactComponent/contact';
 export class ProjectGridPage extends Component {
 
-  projects = ProjectEntity.getProjects();
+  // projects = ProjectEntity.getProjects();
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      projects: this.projects,
-      loading: false
-    }
+      projects: ProjectEntity.getProjects()
+    };
 
   }
   render() {
@@ -38,7 +37,7 @@ export class ProjectGridPage extends Component {
             <div className="row" >
               {this.state.projects.map((elements) => {
                 return <div className="col-md-4 " key={elements.key}>
-                  <ProjectItem key={elements.key}  id={elements.key} projectName={elements.projectName} alias={elements.alias} description={elements.description} liveUrl={elements.liveUrl} gitUrl={elements.gitUrl} demoUrl={elements.demoUrl} imgSrc={elements.imgSrc} tag={elements.tag} status={elements.status} />
+                  <ProjectItem key={elements.key}  id={elements.key} projectName={elements.projectName} alias={elements.alias} shortDesc={elements.shortDesc} liveUrl={elements.liveUrl} gitUrl={elements.gitUrl} demoUrl={elements.demoUrl} imgSrc={elements.imgSrc} tag={elements.tag} status={elements.status} />
                 </div>
               })}
             </div>
