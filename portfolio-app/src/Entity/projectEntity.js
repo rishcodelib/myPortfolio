@@ -248,16 +248,16 @@ class ProjectEntity {
       description: "The E-Commerce Solution is a comprehensive platform designed to cater to the needs of customers, vendors, and distributors. This project provides a seamless shopping experience with features such as product listings, secure payment gateways, order management, and real-time inventory tracking. Vendors can easily manage their products, track sales, and handle customer inquiries, while distributors can oversee the supply chain and ensure timely deliveries. The platform also includes advanced search and filtering options, personalized recommendations, and integration with various third-party services to enhance functionality and user experience. Additionally, the E-Commerce Solution supports multiple languages and currencies, making it accessible to a global audience.", liveUrl: "https://ecommerceapp-14994.web.app/",
       gitUrl: "https://github.com/rishcodelib/Ecommerce-App-JAVA",
       imgSrc: "/images/projectImages/eCommerceApp.png",
-      keyFeatures: [
-        "React: For building a dynamic and responsive user interface.",
-        "Node.js & Express: For creating a robust backend and handling server-side operations.",
-        "MongoDB: For managing the database of projects, blog posts, and contact form submissions.",
-        "HTML5 & CSS3: For structuring and styling the portfolio.",
-        "JavaScript: For adding interactivity and enhancing the user experience.",
-        "Bootstrap: For responsive design and ensuring the portfolio looks great on all devices.",
-        "Netlify: For deploying the portfolio and ensuring continuous delivery.",
-        "SEO Best Practices: Implemented to improve search engine rankings and drive organic traffic."
-      ], technologiesUsed: [
+      keyFeatures: {
+        "React": " For building a dynamic and responsive user interface.",
+        "Node.js & Express": "For creating a robust backend and handling server-side operations.",
+        "MongoDB": "For managing the database of projects, blog posts, and contact form submissions.",
+        "HTML5 & CSS3": "For structuring and styling the portfolio.",
+        "JavaScript": "For adding interactivity and enhancing the user experience.",
+        "Bootstrap": "For responsive design and ensuring the portfolio looks great on all devices.",
+        "Netlify": "For deploying the portfolio and ensuring continuous delivery.",
+        "SEO Best Practices": "Implemented to improve search engine rankings and drive organic traffic."
+      }, technologiesUsed: [
         "React: For building a dynamic and responsive user interface.",
         "Node.js & Express: For creating a robust backend and handling server-side operations.",
         "MongoDB: For managing the product database and user information.",
@@ -268,6 +268,86 @@ class ProjectEntity {
         "RESTful APIs: For integrating with external systems and enabling seamless data exchange."
       ],
       tag: ["JAVA", "Spring Boot", "Angular"]
+    },
+    {
+      key: 9,
+      projectName: "Bluetooth Based Remote Control Toy Car",
+      projectDetailLink: null,
+      status: "Completed",
+      shortDesc: "A complete small .",
+      description: "Bluetooth based remote control car",
+      liveUrl: null,
+      gitUrl: null,
+      imgSrc: "/images/projectImages/no_image.png",
+      keyFeatures: {
+        "Fabrication": "For building a dynamic and responsive user interface.",
+        "Microcontroller 8085": "For creating a robust backend and handling server-side operations.",
+        "Bluetooth Reciever": "For managing the database of projects, blog posts, and contact form submissions.",
+        "Bluetooth Mobile App": "For structuring and styling the portfolio."
+      }, technologiesUsed: [
+        "Objective C (Programming Language): For adding interactivity and enhancing the user experience."
+      ],
+      tag: ["Microcontroller & Architecture", "Itching", "Microcontroller 8085"]
+    },
+    {
+      key: 10,
+      projectName: "GSM Based Weather Monitoring System",
+      projectDetailLink: null,
+      status: "Completed",
+      shortDesc: "This Project Was Made To Monitor Climatic Changes Such As Temperature, Humidity & Send Via SMS.",
+      description: "This Project Was Made To Monitor Climatic Changes Such As Temperature, Humidity & Send Via SMS.",
+      liveUrl: null,
+      gitUrl: null,
+      imgSrc: "/images/projectImages/no_image.png",
+      keyFeatures: {
+        "GSM Module": "For building a dynamic and responsive user interface.",
+        "Microcontroller 8085": "For creating a robust backend and handling server-side operations.",
+        "Adapters": "For managing the database of projects, blog posts, and contact form submissions.",
+        "Printed Circuit Board": "For structuring and styling the portfolio."
+      }, technologiesUsed: [
+        "Objective C (Programming Language): For adding interactivity and enhancing the user experience."
+      ],
+      tag: ["Microcontroller & Architecture", "Itching", "Microcontroller 8085"]
+    },
+    {
+      key: 10,
+      projectName: "PICK & PLACE ROBOT ARM.",
+      projectDetailLink: null,
+      status: "Completed",
+      shortDesc: "Small Crane Like Structure Prototype Controlled By Bluetooth, Used To Pick/Place Items.",
+      description: "Small Crane Like Structure Prototype Controlled By Bluetooth, Used To Pick/Place Items.",
+      liveUrl: null,
+      gitUrl: null,
+      imgSrc: "/images/projectImages/no_image.png",
+      keyFeatures: {
+        "Fabrication": "For building a dynamic and responsive user interface.",
+        "Microcontroller 8085": "For creating a robust backend and handling server-side operations.",
+        "Bluetooth Reciever": "For managing the database of projects, blog posts, and contact form submissions.",
+        "Bluetooth Mobile App": "For structuring and styling the portfolio."
+      }, technologiesUsed: [
+        "Objective C (Programming Language): For adding interactivity and enhancing the user experience."
+      ],
+      tag: ["Microcontroller & Architecture", "Itching", "Microcontroller 8085"]
+    },
+    {
+      key: 11,
+      projectName: "HOME SECURITY SYSTEM USING ARM7 MICRO-CONTROLLER",
+      projectDetailLink: null,
+      status: "Completed",
+      shortDesc: "Small Crane Like Structure Prototype Controlled By Bluetooth, Used To Pick/Place Items.",
+      description: "Small Crane Like Structure Prototype Controlled By Bluetooth, Used To Pick/Place Items.",
+      liveUrl: null,
+      gitUrl: null,
+      imgSrc: "/images/projectImages/no_image.png",
+      keyFeatures: {
+        "Fabrication": "For building a dynamic and responsive user interface.",
+        "Microcontroller 8085": "For creating a robust backend and handling server-side operations.",
+        "Bluetooth Reciever": "For managing the database of projects, blog posts, and contact form submissions.",
+        "Bluetooth Mobile App": "For structuring and styling the portfolio."
+      }, technologiesUsed: [
+        "Objective C (Programming Language): For adding interactivity and enhancing the user experience."
+      ],
+      tag: ["Microcontroller & Architecture", "Itching", "Microcontroller 8085"]
     }
     ]
   };

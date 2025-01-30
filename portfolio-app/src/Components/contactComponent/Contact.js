@@ -2,7 +2,7 @@ import React from "react";
 import './contact.css';
 
 function Contact() {
-  return <div className="mt-5">
+  return <div className="my-5">
     <div className="container jumbotron">
       <div className="row ">
         <div className="col-md-12 text-center p-5">

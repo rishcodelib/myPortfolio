@@ -1,32 +1,53 @@
-import React from "react";
+import React, { Component } from 'react';
 import './social.css';
 import { Link } from "react-router-dom";
+import UserEntity from "../../Entity/userEntity";
 
-function social() {
-  return <div className="sc-media">
-    <Link to="http://www.facbook.com/iam.rishabhhh" target="_blank" className="icon">
-      {/* <i className="fa fa-facebook"></i> */}
-      <i className="fa-brands fa-facebook fa-xl"></i>
-    </Link>
-    <Link to="http://www.instagram.com/iam.rishhiii" target="_blank" className="icon">
-      <i className="fa-brands fa-instagram fa-xl"></i>
-    </Link>
-    <Link to="http://www.twitter.com/im_rishabhh" target="_blank" className="icon">
-      {/* <i className="fa fa-twitter"></i> */}
-      <i className="fa-brands fa-x-twitter fa-xl"></i>
-    </Link>
-    <Link to="http://www.youtube.com/rishhiii.music" target="_blank" className="icon">
-      <i className="fa-brands fa-youtube"></i>
-    </Link>
-    <Link to="http://www.linkedin.com/in/iamrishabhh" target="_blank" className="icon">
-      {/* <i className="fa fa-linkedin"></i> */}
-      <i className="fa-brands fa-linkedin-in fa-xl"></i>
-    </Link>
-    <Link to="https://github.com/rishcodelib" target="_blank" className="icon">
-      {/* <i className="fa fa-github"></i> */}
-      <i className="fa-brands fa-github fa-xl"></i>
-    </Link>
-  </div>;
+export class Social extends Component {
+  constructor(props) {
+    super(props);
+    // Fetch user data based on user ID (in this case, ID 1)
+    this.state = {
+      user: UserEntity.getUser(1),
+      loading: false
+    };
+  }
+
+  render() {
+    // Extract the social media data from the user object
+    const { user } = this.state;
+
+    // Only render the component if user data is available
+    if (!user) {
+      return <div>Loading...</div>;
+    }
+
+    return (
+      <div className="sc-media">
+        <div className="container">
+          <div className="inside-container">
+            <div className="row" >
+              <div className='d-xs-none col-md-2 col-lg-2 col-xl-3 col-xxl-2'></div>
+              {/* Iterate over the social media fields dynamically */}
+              {Object.keys(user).map((key) => {
+                // Skip irrelevant keys (id, name, alias, website)
+                if (['id', 'name', 'alias', 'website'].includes(key)) return null;
+
+                const social = user[key]; // Get the social media data (e.g., github, linkedin)
+                return (
+                  <div className="col-3 col-xs-2 col-sm-1 col-md-2  " key={key}>
+                    <Link to={social.link} target="_blank" className="icon">
+                      <i className={`fa-brands ${social.logo} fa-xl`}></i>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
-export default social
+export default Social;

@@ -6,8 +6,7 @@ function Tag({ tagName }) {
 
   return (
     <p className="project-tag btn btn-tag ">
-      <i className="fa-solid fa-tag"></i> 
-      {tagName}
+      <i className="fa-solid fa-tag"></i> {tagName}
       </p>
   );
 }

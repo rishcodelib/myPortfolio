@@ -1,6 +1,8 @@
 .sc-media {
-  padding: 25px 0;
-  text-align: center;
+  /* padding: 25px 0; */
+  /* text-align: center; */
+  position: relative;
+  top: 7rem;
 }
 
 .sc-media .icon {
@@ -20,7 +22,7 @@
 .masterContent {
   text-align: center;
   color: #fff;
-  width: 100%;
+ 
 }
 
 .sc-media a.icon:hover {
@@ -32,4 +34,13 @@
 .sc-media a.icon:hover i {
   color: green;
   transition: ease-in .8s;
+}
+
+.sc-media  .inside-container  {
+  width: 50%;
+  align-content: center;
+  padding-right: calc(var(--bs-gutter-x)* 0.5);
+  padding-left: calc(var(--bs-gutter-x)* 0.5);
+  margin-right: auto;
+  margin-left: auto;
 }
