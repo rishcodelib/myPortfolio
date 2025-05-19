@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet-async';
 import MusicEntity from '../Entity/musicEntity';
 import MusicItem from '../Components/musicComponent/musicItem';
-
+import { MUSIC_INSTA_NAME, MUSIC_YT_LINK, MUSIC_YT_NAME } from '../constants';
 export class MusicPage extends Component {
   constructor(props) {
     super(props);
@@ -16,14 +16,14 @@ export class MusicPage extends Component {
     return (
       <div>
         <Helmet>
-          <title>Music | Rishabh Aggarwal</title>
+          <title>Music | Rishabh Aggarwal | {MUSIC_INSTA_NAME} </title>
         </Helmet>
         <section className="project-card container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="text-center">Music Projects</h1>
+              <h1 className="text-center">Musical Journey</h1>
               <h6 className="text-center codewithRishhiii">
-                Partnered By <b><a href="https://www.youtube.com/@rishhiiimusic" target="_blank" rel="noopener noreferrer" className='text-decoration-none text-black '> RishhiiiMusic <i className="fa-brands fa-youtube fa-xl text-danger"></i></a></b>
+                Partnered By <b><a href={MUSIC_YT_LINK} target="_blank" rel="noopener noreferrer" className='text-decoration-none text-black '> {MUSIC_YT_NAME} <i className="fa-brands fa-youtube fa-xl text-danger"></i></a></b>
               </h6>
               {/* <p className="text-center">These projects are purely for personal knowledge enhancement and proof of concept.</p> */}
             </div>

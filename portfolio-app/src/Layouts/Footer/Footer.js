@@ -17,7 +17,7 @@ function Footer() {
             <a href="https://github.com/rishcodelib" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-brands fa-github "></i></a>|
             <a href="https://twitter.com/im_rishabhh" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-brands fa-x-twitter "></i></a>|
             <a href="https://www.youtube.com/@rishhiiimusic" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-brands fa-youtube "></i></a>|
-            <a href="http://www.instagram.com/iam.rishhiii" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-brands fa-instagram "></i></a>|
+            <a href="http://www.instagram.com/rishhiiitheexplorer" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-brands fa-instagram "></i></a>|
             <a href="http://www.snapchat.com/" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-brands fa-snapchat "></i></a>|
             <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-brands fa-google "></i></a>|
             <a href="http://www.gmail.com/" target="_blank" rel="noopener noreferrer" className="text-dark p-2 text-decoration-none"><i className="fa-regular fa-envelope "></i></a>|

@@ -8,7 +8,7 @@ class UserEntity {
         website: 'https://www.rishabhaggarwal.in',
         github: { link: 'https://github.com/rishcodelib', logo: 'fa-github' },
         linkedin: { link: 'http://www.linkedin.com/in/iamrishabhh', logo: 'fa-linkedin-in' },
-        instagram: { link: 'http://www.instagram.com/iam.rishhiii', logo: 'fa-instagram' },
+        instagram: { link: 'http://www.instagram.com/RishhiiiTheExplorer', logo: 'fa-instagram' },
         twitter: { link: 'http://www.twitter.com/im_rishabhh', logo: 'fa-x-twitter' },
         // youtube: { link: 'http://www.youtube.com/rishhiii.music', logo: 'fa-youtube' },
       }

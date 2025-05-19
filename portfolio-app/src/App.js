@@ -12,6 +12,7 @@ import ContactPage from './Pages/contactPage.js';
 import ProjectGridPage from './Pages/projectGridPage.js'
 import ProjectPage from './Pages/projectPage.js'
 import MusicPage from './Pages/musicPage.js';
+import TravelPage from './Pages/travelPage.js';
 // import DummyPage from './Pages/DummyPage.js'
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
             <Route path="contact" element={<ContactPage />} />
             <Route path="music" element={<MusicPage />} />
             <Route path="RishhiiiMusic" element={<MusicPage />} />
+            <Route path="RishhiiiTheExplorer" element={<TravelPage />} />
+            <Route path="Travel" element={<TravelPage />} />
             {/* <Route path="dummy" element={<DummyPage />} /> */}
           </Route>
         </Routes>
