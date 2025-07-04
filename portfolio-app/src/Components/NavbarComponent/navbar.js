@@ -23,7 +23,9 @@ function Navbar() {
 
   } else if (offset < 200 && (fullUrl === '/' || fullUrl === '/home')) {
     classStr = "navbar-dark bg-transparent fixed-top ";
-  } else {
+  } 
+  
+  if (fullUrl === '/projects' || fullUrl === '/contact' || fullUrl === '/RishhiiiMusic' || fullUrl === '/RishhiiiTheExplorer' || fullUrl === '/travel') {
     classStr = "navbar-light bg-light ";
   }
 
@@ -43,10 +45,18 @@ function Navbar() {
             <Link to="/projects" className="nav-link" >
               Projects</Link>
           </li>
+          <li className="nav-item">
+            <Link to="/travel" className="nav-link" >
+              Travel</Link>
+          </li>
 
+        
           <li className="nav-item">
             <Link to="/contact" className="nav-link " tabIndex="-1" aria-disabled="false">Contact</Link>
           </li>
+          {/* <li className="nav-item">
+            <Link to="/blog" className="nav-link " tabIndex="-1" aria-disabled="false">Blog</Link>
+          </li> */}
           {/* <li className="nav-item">
             <Link to="/RishhiiiMusic" className="nav-link " tabIndex="-1" aria-disabled="false">RishhiiiMusic <i className="fa-brands fa-youtube fa-xl text-danger"></i></Link>
           </li> */} 
