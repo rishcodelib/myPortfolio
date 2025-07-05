@@ -13,7 +13,7 @@ class UserEntity {
         // youtube: { link: 'http://www.youtube.com/rishhiii.music', logo: 'fa-youtube' },
       }
     ]
-  };
+  }; 
 
   static getUser(id) {
     return this.data.users.find(user => user.id === id);

@@ -14,6 +14,8 @@ export const TRAVEL_INSTA_LINK = " https://www.instagram.com/rishhiiitheexplorer
 
 export const TRAVEL_YT_NAME = 'RishhiiiTheExplorer'
 export const TRAVEL_YT_LINK = " https://www.youtube.com/@RishhiiiTheExplorer"
+
+export const TRAVEL_WEBSITE_NAME = "rishhiiitheexplorer.com/"
 export const TRAVEL_WEBSITE = "https://rishhiiitheexplorer.com/"
 
 // # Music | RishhiiiMusic
