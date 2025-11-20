@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.fe4d1778.css",
-    "main.js": "./static/js/main.65ee5923.js",
-    "static/js/453.f4fbaa6d.chunk.js": "./static/js/453.f4fbaa6d.chunk.js",
+    "main.css": "./static/css/main.573acc4b.css",
+    "main.js": "./static/js/main.46ba0972.js",
+    "static/js/453.77891b31.chunk.js": "./static/js/453.77891b31.chunk.js",
     "static/media/IslandMoments-Regular.ttf": "./static/media/IslandMoments-Regular.5e2b62d2aef2a23f3850.ttf",
     "static/media/background.jpeg": "./static/media/background.bda2297974335a52f1de.jpeg",
+    "static/media/Scuba_Cert_Page1.jpg": "./static/media/Scuba_Cert_Page1.85a2953acd8f8022b7ad.jpg",
     "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/Caveat-VariableFont_wght.ttf": "./static/media/Caveat-VariableFont_wght.31f0a02d84d42627c894.ttf",
+    "static/media/Scuba_Cert_Page2.jpg": "./static/media/Scuba_Cert_Page2.b444f47f94b1f75878af.jpg",
     "static/media/Caveat-SemiBold.ttf": "./static/media/Caveat-SemiBold.d22864b4c88c0e98cda2.ttf",
     "static/media/Caveat-Medium.ttf": "./static/media/Caveat-Medium.a661a40777402bb8c6ff.ttf",
     "static/media/Caveat-Bold.ttf": "./static/media/Caveat-Bold.b4c2105c3a62bce010d1.ttf",
@@ -19,12 +21,12 @@
     "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "./index.html",
-    "main.fe4d1778.css.map": "./static/css/main.fe4d1778.css.map",
-    "main.65ee5923.js.map": "./static/js/main.65ee5923.js.map",
-    "453.f4fbaa6d.chunk.js.map": "./static/js/453.f4fbaa6d.chunk.js.map"
+    "main.573acc4b.css.map": "./static/css/main.573acc4b.css.map",
+    "main.46ba0972.js.map": "./static/js/main.46ba0972.js.map",
+    "453.77891b31.chunk.js.map": "./static/js/453.77891b31.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe4d1778.css",
-    "static/js/main.65ee5923.js"
+    "static/css/main.573acc4b.css",
+    "static/js/main.46ba0972.js"
   ]
 }
