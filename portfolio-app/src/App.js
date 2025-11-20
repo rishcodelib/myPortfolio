@@ -13,7 +13,7 @@ import ProjectGridPage from './Pages/projectGridPage.js'
 import ProjectPage from './Pages/projectPage.js'
 import MusicPage from './Pages/musicPage.js';
 import TravelPage from './Pages/travelPage.js';
-// import DummyPage from './Pages/DummyPage.js'
+import ResumePage from './Pages/resumePage.js';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
             <Route path="RishhiiiMusic" element={<MusicPage />} />
             <Route path="RishhiiiTheExplorer" element={<TravelPage />} />
             <Route path="Travel" element={<TravelPage />} />
-            {/* <Route path="dummy" element={<DummyPage />} /> */}
+            <Route path="resume" element={<ResumePage />} />
           </Route>
         </Routes>
       </BrowserRouter>

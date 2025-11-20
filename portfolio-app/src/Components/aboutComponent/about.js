@@ -3,6 +3,9 @@ import "./about.css";
 
 function about() {
   let subHeading = "Software Developement Engineer";
+   const handleResumeClick = () => {
+    window.open("/resume.pdf", "_blank");
+  }
   return <section className="about-me " id="about">
     <div className="container">
       <div className="row">
@@ -32,7 +35,13 @@ function about() {
               <app-skill-bar></app-skill-bar>
             </div>
             <div className="col-md-4 pt-5">
-              <a className="btn btn-primary mx-2 " href="/resume"> Request Resume</a>
+              <button
+                type="button"
+                className="btn btn-primary mx-2"
+                onClick={handleResumeClick}
+              >
+                Request Resume
+              </button>
               <a className="btn btn-secondary " href="/projects"> Project Catalog</a>
             </div>
           </div>
