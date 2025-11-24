@@ -15,6 +15,7 @@ import MusicPage from './Pages/musicPage.js';
 import TravelPage from './Pages/travelPage.js';
 import ResumePage from './Pages/resumePage.js';
 
+
 function App() {
   return (
     <HelmetProvider>
@@ -31,6 +32,7 @@ function App() {
             <Route path="RishhiiiTheExplorer" element={<TravelPage />} />
             <Route path="Travel" element={<TravelPage />} />
             <Route path="resume" element={<ResumePage />} />
+            <Route path="resumePage" element={<ResumePage />} />
           </Route>
         </Routes>
       </BrowserRouter>

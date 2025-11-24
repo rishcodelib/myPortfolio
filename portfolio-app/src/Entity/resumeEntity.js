@@ -1,27 +1,114 @@
 // filepath: /Users/rishabh/WorkSpaces/GitRepository/myPortfolio/portfolio-app/src/Entities/StaticEntity.js
-class ResumeEntity {
-  static data = {
-    personalDetails: { id: 1, firstName: 'Rishabh', lastName: 'Aggarwal' },
-    educationDetails: { id: 1, firstName: 'Rishabh', lastName: 'Aggarwal' },
-    professionalDetails: { id: 1, firstName: 'Rishabh', lastName: 'Aggarwal' },
-    contactDetails: { emailID: 'abc@example.com', contact: '123456789', address: 'India' }
-  };
+const ResumeEntity = {
+  getPersonalDetails: () => {
+    return {
+      firstName: "Rishabh",
+      lastName: "Aggarwal",
+      title: "Software Development Consultant -1",
+      phone: "+91-999-664-0023",
+      email: "rishabhaggarwal23@gmail.com",
+      location: "Bengaluru, KA",
+      linkedIn: "www.linkedin.com/in/iamrishabhh",
+      website: "rishabhaggarwal.in",
+    };
+  },
 
-  static getPersonalDetails() {
-    return this.data.personalDetails;
-  }
+  getWorkExperience: () => {
+    return [
+      {
+        title: "Software Development Consultant -1",
+        company: "Lumen Technologies",
+        location: "Bengaluru, KA",
+        duration: "2023 - Present",
+        responsibilities: [
+          "Worked with Fault Team to automate real-time alarms and ticketing workflows using JAVA and PHP scripts.",
+          "Implemented ELK stack (Elasticsearch, Logstash, Kibana) and integrated with Splunk for advanced log analytics and real-time monitoring.",
+          "Worked as a Scrum Master to facilitate agile meetings, planning and sprint planning.",
+          "Worked with DevOps to optimize the application pipeline, improving code maintainability, security, bug fixes through Sonar Lint, and code coverage."
+        ]
+      },
+      {
+        title: "Software Developer Engineer",
+        company: "Lumen Technologies",
+        location: "Bengaluru, KA",
+        duration: "2021 - 2023",
+        responsibilities: [
+          "Led Project-EDS, handling the customer order journey with REST APIs. Used Java (Spring-Boot, Security), JUnit, Swagger, Splunk, AppDynamics, and deployed via Jenkins & Kubernetes.",
+          "Worked on a component in microservice architecture, that generates quick and valid Quotes to customers before submitting an order, by using technologies like JavaScript, React, Java (Spring Boot).",
+          "Worked with billing Team that uses Job scheduler to execute cron-jobs to generate bills for customers, this process involves SHELL Scripting, MySQL."
+        ]
+      },
+      {
+        title: "Web Developer",
+        company: "CAL-Info Training & Consultancy",
+        location: "Kurukshetra, HR",
+        duration: "2019 - 2020",
+        responsibilities: [
+          "Created Single Page web Apps using Typescript, Node JS & Angular for Client.",
+          "Developed websites with PHP (CodeIgniter3) backend and JavaScript, jQuery, CSS (Bootstrap4) frontend."
+        ]
+      }
+    ];
+  },
 
-  static getEducationDetails() {
-    return this.data.educationDetails;
-  }
+  getEducation: () => {
+    return [
+      {
+        degree: "PG Diploma in Advanced Computing",
+        institution: "CDAC ACTS, Bengaluru",
+        year: "2019 - 2020"
+      },
+      {
+        degree: "B.Tech. in Electronics and Communication Engineering",
+        institution: "UIET, Kurukshetra University",
+        year: "2014 - 2018"
+      }
+    ];
+  },
 
-  static getProfessionalDetails() {
-    return this.data.professionalDetails;
-  }
+  getSkills: () => {
+    return [
+      "Java",
+      "MongoDB",
+      "DevOps",
+      "Spreadsheets",
+      "Oracle",
+      "JAVA",
+      "Docker / Kubernetes",
+      "Jenkins",
+      "Linux Shell Scripting",
+      "JavaScript (ES6)",
+      "NodeJS (ExpressJS)",
+      "Angular",
+      "React",
+      "PHP (CodeIgniter 3)",
+      "HTML5 / CSS3 (Bootstrap 3,4)",
+      "GitHub Actions"
+    ];
+  },
 
-  static getContactDetails() {
-    return this.data.contactDetails;
+  getCertifications: () => {
+    return [
+      "AWS Cloud Practitioner 2022: Cloud & the Value Proposition | Skillsoft",
+      "AWS Cloud Practitioner 2022: Cloud Economics | Skillsoft",
+      "Spring Boot Microservices | Skillsoft, February 2022",
+      "MEAN for FSD Development | Skillsoft",
+      "Data Analysis | Skillsoft, July 2022"
+    ];
+  },
+
+  getProjects: () => {
+    return [
+      {
+        name: "Portfolio Website",
+        description: "Designed and developed a personal portfolio website using React.js and Bootstrap."
+      },
+      {
+        name: "E-commerce Platform",
+        description: "Built a fully functional e-commerce platform with a team, integrating payment gateways and user authentication."
+      }
+    ];
   }
-}
+};
 
 export default ResumeEntity;
