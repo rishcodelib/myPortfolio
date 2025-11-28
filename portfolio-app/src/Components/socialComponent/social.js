@@ -36,7 +36,7 @@ export class Social extends Component {
                 const social = user[key]; // Get the social media data (e.g., github, linkedin)
                 return (
                   <div className="col-3 col-xs-2 col-sm-1 col-md-2  " key={key}>
-                    <Link to={social.link} target="_blank" className="icon">
+                    <Link to={social.link.trim()} target="_blank" className="icon" rel="noopener noreferrer">
                       <i className={`fa-brands ${social.logo} fa-xl`}></i>
                     </Link>
                   </div>
