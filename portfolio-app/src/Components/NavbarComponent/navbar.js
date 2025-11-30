@@ -10,8 +10,6 @@ function Navbar() {
 
   const [offset, setOffset] = useState(0);
   let fullUrl = location.pathname === '/';
-  // console.log("Full URL:", location.pathname);
-
   useEffect(() => {
     const onScroll = () => setOffset(window.scrollY);
     // clean up code
@@ -19,16 +17,15 @@ function Navbar() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
   let classStr = fullUrl ? "navbar-dark bg-transparent fixed-top" : "navbar-light bg-light fixed-top";
 
-
-  if (fullUrl === '/' || fullUrl === '/home') {
-    if (offset < 200) {
-      classStr = "navbar-light bg-light fixed-top";
-    } else {
-      classStr = "navbar-dark bg-transparent fixed-top ";
-    }
+  if (offset > 200 && fullUrl == true) {
+    classStr = "navbar-light bg-light fixed-top";
+  } else if (offset < 200 && fullUrl == true) {
+    classStr = "navbar-dark bg-transparent fixed-top ";
   }
+
 
 
 
