@@ -235,7 +235,7 @@ class ProjectEntity {
         "Netlify: For deploying the portfolio and ensuring continuous delivery.",
         "SEO Best Practices: Implemented to improve search engine rankings and drive organic traffic."
       ],
-      tag: ["NodeJS", "ExpressJS", "Angular"]
+      tag: ["NodeJS", "ExpressJS", "React", "MongoDB", "Bootstrap", "AWS"]
     },
 
     /* 8 createdAt:5/15/2024, 11:35:01 AM*/
@@ -310,7 +310,7 @@ class ProjectEntity {
       tag: ["Microcontroller & Architecture", "Itching", "Microcontroller 8085"]
     },
     {
-      key: 10,
+      key: 12,
       projectName: "PICK & PLACE ROBOT ARM.",
       projectDetailLink: null,
       status: "Completed",

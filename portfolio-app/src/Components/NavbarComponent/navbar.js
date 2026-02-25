@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation } from "react-router-dom";
-import '../../Assets/fonts/Caveat/caveat.css'; // Import the custom font CSS
-
+import { NavLink, useLocation } from "react-router-dom";
+import '../../Assets/fonts/Caveat/caveat.css';
 import UserEntity from '../../Entity/userEntity';
+
 function Navbar() {
 
   const root = UserEntity.getUser(1);
@@ -10,6 +10,7 @@ function Navbar() {
 
   const [offset, setOffset] = useState(0);
   let fullUrl = location.pathname === '/';
+
   useEffect(() => {
     const onScroll = () => setOffset(window.scrollY);
     // clean up code
@@ -18,16 +19,13 @@ function Navbar() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  let classStr = fullUrl ? "navbar-dark bg-transparent fixed-top" : "navbar-light bg-light fixed-top";
+  let classStr = fullUrl ? "navbar-dark bg-transparent fixed-top" : "navbar-light bg-light ";
 
-  if (offset > 200 && fullUrl == true) {
+  if (offset > 200 && fullUrl === true) {
     classStr = "navbar-light bg-light fixed-top";
   } else if (offset < 200 && fullUrl == true) {
     classStr = "navbar-dark bg-transparent fixed-top ";
   }
-
-
-
 
   return <nav className={'navbar navbar-expand-lg ' + classStr} >
     <div className="container">
@@ -49,17 +47,9 @@ function Navbar() {
             <NavLink to="/travel" className="nav-link" >
               Travel</NavLink>
           </li>
-
-
           <li className="nav-item">
-            <Link to="/contact" className="nav-link " tabIndex="-1" aria-disabled="false">Contact</Link>
+            <NavLink to="/contact" className="nav-link " tabIndex="-1" aria-disabled="false">Contact</NavLink>
           </li>
-          {/* <li className="nav-item">
-            <Link to="/blog" className="nav-link " tabIndex="-1" aria-disabled="false">Blog</Link>
-          </li> */}
-          {/* <li className="nav-item">
-            <Link to="/RishhiiiMusic" className="nav-link " tabIndex="-1" aria-disabled="false">RishhiiiMusic <i className="fa-brands fa-youtube fa-xl text-danger"></i></Link>
-          </li> */}
 
         </ul>
 

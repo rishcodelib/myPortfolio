@@ -70,10 +70,6 @@ const ProjectPage = () => {
                 </ul>
               </div>
             </div>
-
-            {/* <hr className="divider" /> */}
-
-            {/* Render the project details here */}
           </div>
 
           <div className="col-md-12">
@@ -95,15 +91,6 @@ const ProjectPage = () => {
                 )}
               </div>
             </div >
-
-            {/* <h3 className='text-center'>Project Screenshots</h3> */}
-            {/* <div className="row"> */}
-            {/* {projectDetail.screenshots.map((screenshot, index) => (
-                <div className="col-md-4" key={index}>
-                  <img src={screenshot} className="img-fluid" alt={`Screenshot ${index + 1}`} />
-                </div>
-              ))} */}
-            {/* </div> */}
           </div>
         </div>
       </section>

@@ -31,7 +31,7 @@ function App() {
             <Route path="RishhiiiMusic" element={<MusicPage />} />
             <Route path="RishhiiiTheExplorer" element={<TravelPage />} />
             <Route path="Travel" element={<TravelPage />} />
-            <Route path="resume" element={<ResumePage />} />
+            {/* <Route path="resume" element={<ResumePage />} /> */}
             <Route path="resumePage" element={<ResumePage />} />
           </Route>
         </Routes>

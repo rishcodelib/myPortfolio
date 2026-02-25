@@ -1,0 +1,72 @@
+[
+    {
+        "profile": {
+            "firstName": "Rishabh",
+            "lastName": "Aggarwal",
+            "title": "Software Development Consultant - 1",
+            "summary": "SDE -1 Lumen Technologies.",
+            "location": "Bengaluru, Karnataka, India"
+        },
+        "settings": {
+            "visibility": "public",
+            "profileTag": "sde1",
+            "version": 1,
+            "slug": "rishabh-sde1"
+        },
+        "_id": "69293ac4aabc9868821b9c15",
+        "contact": [
+            {
+                "type": "email",
+                "label": "Work",
+                "value": "rishabhaggarwal23@gmail.com",
+                "_id": "69293ac4aabc9868821b9c16"
+            },
+            {
+                "type": "linkedin",
+                "value": "https://linkedin.com/in/iamrishabhh",
+                "_id": "69293ac4aabc9868821b9c17"
+            },
+            {
+                "type": "github",
+                "value": "https://github.com/rishcodelib",
+                "_id": "69293ac4aabc9868821b9c18"
+            }
+        ],
+        "sections": [
+            {
+                "key": "experience",
+                "type": "experience",
+                "title": "Work Experience",
+                "enabled": true,
+                "order": 0,
+                "items": [
+                    {
+                        "title": "Software Development Consultant - 1",
+                        "startDate": "2022-01-01T00:00:00.000Z",
+                        "endDate": null,
+                        "location": "Remote",
+                        "description": "Built UI components",
+                        "bullets": [
+                            "Built design system",
+                            "Improved performance"
+                        ],
+                        "tech": [
+                            "react",
+                            "typescript"
+                        ],
+                        "_id": "69293ac4aabc9868821b9c1a",
+                        "links": []
+                    }
+                ],
+                "_id": "69293ac4aabc9868821b9c19"
+            }
+        ],
+        "tags": [
+            "react",
+            "frontend"
+        ],
+        "createdAt": "2025-11-28T06:01:40.608Z",
+        "updatedAt": "2025-11-28T06:01:40.608Z",
+        "__v": 0
+    }
+]

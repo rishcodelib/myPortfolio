@@ -2,11 +2,12 @@
 
 const ResumeEntity = {
 
+
   getPersonalDetails: () => {
     return {
       firstName: "Rishabh",
       lastName: "Aggarwal",
-      title: "Software Development Consultant - 1",
+      title: "Software Development Consultant -1",
       phone: "+91-999-664-0023",
       email: "rishabhaggarwal23@gmail.com",
       location: "Bengaluru, KA",
@@ -18,7 +19,7 @@ const ResumeEntity = {
   getWorkExperience: () => {
     return [
       {
-        title: "Software Development Consultant - 1",
+        title: "Software Development Consultant -1",
         company: "Lumen Technologies",
         location: "Bengaluru, KA",
         duration: "2023 - Present",
