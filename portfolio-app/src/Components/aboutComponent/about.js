@@ -34,7 +34,7 @@ function about() {
             </div>
             <div className="col-md-4 pt-5">
               <a className="btn btn-primary mx-2"
-                href="/resumePage"
+                href="https://www.rishabhaggarwal.in/resume.pdf" link rel="noopener noreferrer" target="_blank"
               >
                 Request Resume
               </a>
