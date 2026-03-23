@@ -106,7 +106,7 @@ class ProjectEntity {
       status: "Completed",
       alias: null,
       shortDesc: "A comprehensive travel platform for booking packages, exploring destinations, and managing itineraries, featuring an intuitive interface and seamless booking process.", description: "A Complete Travel web Application created on WordPress. This project provides a comprehensive platform for users to book travel packages, explore destinations, and manage their travel itineraries. The application features an intuitive interface, seamless booking process, and integration with various travel service providers.",
-      liveUrl: "https://www.travelRoutes.in/",
+      liveUrl: null,
       gitUrl: null,
       demoUrl: null,
       imgSrc: "/images/projectImages/no_image.png",
