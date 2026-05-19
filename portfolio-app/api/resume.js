@@ -5,7 +5,7 @@ export default function handler(req, res) {
   const botRegex = /bot|crawler|spider|facebookexternalhit|linkedinbot|twitterbot|slackbot|telegrambot/;
   const isBot = botRegex.test(ua) || accept.includes('text/html') && /facebookexternalhit|twitterbot|linkedinbot/.test(ua);
 
-  const pdfUrl = '/assets/resume.pdf';
+  const pdfUrl = 'resume.pdf';
   const host = 'rishabhaggarwal.in';
   const fullUrl = `https://${host}/resume`;
 

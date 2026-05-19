@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { HelmetProvider } from 'react-helmet-async';
@@ -13,7 +13,6 @@ import ProjectGridPage from './Pages/projectGridPage.js'
 import ProjectPage from './Pages/projectPage.js'
 import MusicPage from './Pages/musicPage.js';
 import TravelPage from './Pages/travelPage.js';
-import ResumePage from './Pages/resumePage.js';
 
 
 function App() {
@@ -31,8 +30,10 @@ function App() {
             <Route path="RishhiiiMusic" element={<MusicPage />} />
             <Route path="RishhiiiTheExplorer" element={<TravelPage />} />
             <Route path="Travel" element={<TravelPage />} />
-            {/* <Route path="resume" element={<ResumePage />} /> */}
-            <Route path="resumePage" element={<ResumePage />} />
+            {/* Route for resume: redirect SPA requests to the static preview */}
+            {/* <Route path="resume" element={<Navigate to="/resume/" replace />} /> */}
+            <Route path="resume.pdf" element={<Navigate to="/resume/" replace />} />
+            
           </Route>
         </Routes>
       </BrowserRouter>

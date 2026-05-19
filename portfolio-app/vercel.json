@@ -1,7 +1,8 @@
 {
+  "redirects": [
+    { "source": "/resume.pdf", "destination": "/resume", "statusCode": 302 }
+  ],
   "rewrites": [
-    { "source": "/resume.pdf", "destination": "/api/resume" },
-    { "source": "/resume", "destination": "/api/resume" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }
