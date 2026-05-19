@@ -1,5 +1,7 @@
 {
   "rewrites": [
+    { "source": "/resume.pdf", "destination": "/api/resume" },
+    { "source": "/resume", "destination": "/api/resume" },
     { "source": "/(.*)", "destination": "/" }
   ]
 }

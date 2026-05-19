@@ -35,7 +35,7 @@ export class resumePage extends Component {
   render() {
 
     const handleResumeClick = () => {
-      window.open("/resume.pdf", "_blank");
+      window.open("/resume", "_blank");
     };
 
 

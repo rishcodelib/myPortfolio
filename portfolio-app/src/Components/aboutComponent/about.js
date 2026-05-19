@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 
 function about() {
-  let subHeading = "Software Developement Engineer";
+  let subHeading = "Software Developement Consultant";
 
   return <section className="about-me " id="about">
     <div className="container">
@@ -25,7 +25,7 @@ function about() {
 
           <div className="sub-Content">
             <p className="mb-0"> I am a dedicated Full Stack Developer currently employed at <a className="company"
-              href="https://www.lumen.com">Lumen  </a> Technologies India Pvt. Ltd. as a Software Development Engineer-I. My passion lies in programming and exploring new and emerging technologies. With over 5 years of experience in the IT industry, I have successfully developed numerous web applications and websites for a diverse range of clients. My expertise spans across various technologies, enabling me to deliver high-quality solutions tailored to client needs. I am currently based in Bengaluru, Karnataka. </p>
+              href="https://www.lumen.com">Lumen  </a> Technologies India Pvt. Ltd. as a {subHeading}. My passion lies in programming and exploring new and emerging technologies. With over 5 years of experience in the IT industry, I have successfully developed numerous web applications and websites for a diverse range of clients. My expertise spans across various technologies, enabling me to deliver high-quality solutions tailored to client needs. I am currently based in Bengaluru, Karnataka, India. </p>
           </div>
 
           <div className="row">
@@ -33,9 +33,7 @@ function about() {
               <app-skill-bar></app-skill-bar>
             </div>
             <div className="col-md-4 pt-5">
-              <a className="btn btn-primary mx-2"
-                href="https://www.rishabhaggarwal.in/resume.pdf" link rel="noopener noreferrer" target="_blank"
-              >
+              <a className="btn btn-primary mx-2" href="/resume" rel="noopener noreferrer" target="_blank">
                 Request Resume
               </a>
               <a className="btn btn-secondary " href="/projects"> Project Catalog</a>
