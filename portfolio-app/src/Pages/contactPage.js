@@ -3,7 +3,7 @@ import ProjectForm from '../Components/projectFormComponent/projectFormComponent
 import { Helmet } from 'react-helmet-async';
 
 import Contact from '../Components/contactComponent/contact';
-
+import LinkedInBadge from '../Components/linkedinBadgeComponent/linkedinBadgeComponent';
 export class ContactPage extends Component {
   render() {
     return (
@@ -13,6 +13,7 @@ export class ContactPage extends Component {
         </Helmet>
         {/* <ProjectForm /> */}
         <Contact />
+        {/* <LinkedInBadge /> */}
       </div>
     );
   }

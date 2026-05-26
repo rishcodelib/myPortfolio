@@ -15,8 +15,8 @@ export const WEBSITE = " https://www.rishabhaggarwal.in"
 
 // #Travel | ExploreWithRishhii
 export const TRAVEL_INSTA_LINK = " https://www.instagram.com/explorewithrishhii/"
-export const TRAVEL_INSTA_NAME = "ExploreWithRishii"
-export const TRAVEL_YT_NAME = 'ExploreWithRishii'
+export const TRAVEL_INSTA_NAME = "ExploreWithRishhii"
+export const TRAVEL_YT_NAME = 'ExploreWithRishhii'
 export const TRAVEL_YT_LINK = "https://www.youtube.com/@ExploreWithRishhii"
 
 
@@ -24,11 +24,11 @@ export const TRAVEL_WEBSITE_NAME = "rishhiiitheexplorer.com/"
 export const TRAVEL_WEBSITE = "https://rishhiiitheexplorer.com/"
 
 // # Music | RishhiiiMusic
-export const MUSIC_INSTA_NAME = "RishhiiiMusic"
-export const MUSIC_INSTA_LINK = "https://www.instagram.com/Rishhiii.music/"
+export const MUSIC_INSTA_NAME = "RishhiiMusic"
+export const MUSIC_INSTA_LINK = "https://www.instagram.com/Rishhii.music/"
 
 export const MUSIC_YT_NAME = " RishhiiiMusic"
-export const MUSIC_YT_LINK = " https://www.youtube.com/@RishhiiiMusic"
+export const MUSIC_YT_LINK = " https://www.youtube.com/@RishhiiMusic"
 
 // # Coding | Code With Rishhiii
 export const CODE_INSTA_NAME = "CodeWithRishhiii*"
